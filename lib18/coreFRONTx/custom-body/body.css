@@ -1,0 +1,36 @@
+:root{
+	--c-purpleUPP:#491965;
+	--c-dark:#070707;
+}
+.subtitle{
+	color: var(--c-purpleUPP);
+	font-weight: 800;
+}
+.title{
+	color: var(--c-purpleUPP);
+	text-shadow: 1px -1px var(--c-dark);
+}
+.c-purple{
+	color: var(--c-purpleUPP);
+}
+.links{
+	color: var(--c-dark);
+}
+.w-15{
+	width: 15% !important;
+}
+.bg-grad{ 
+	background: transparent; 
+	background: linear-gradient(transparent, #3D3737);
+}
+.logo-float{
+	left: 40px;
+	bottom: 20px;
+	position: fixed;
+	z-index: 99;
+	border-radius: 7%;
+}
+.mx-h-700{
+	max-height: 450px;
+	max-width: 100%;
+}
