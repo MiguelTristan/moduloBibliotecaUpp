@@ -27,19 +27,34 @@
   <main class="main container">
 
     <div class="page-header">
-      <h2 class="h3 text-center"></br>Biblioteca</h2>
+      <h2 class="h3 text-center"></br>Centro de Investigación Bibliografica</h2>
     </div>
 
     <!-- Video UPP -->
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/wfM2tRqfSNE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="853" height="480" class="embed-responsive-item" src="https://www.youtube.com/embed/zILtmXy5wlE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
     <hr/>
 
     <!-- Main principal -->
     <div class="main">
-      <p class="text-justify">Consiste en la obtención de materiales para su consulta dentro de la biblioteca, mismos que podrá conseguir directamente de la estantería. En este servicio, el usuario puede consultar hasta tres títulos distintos, mismos que depositará, a su término de uso, en los lugares indicados para su posterior reubicación, por el personal bibliotecario.</p>
+      <h4 class="text-center h5">Disposiciones generales para las usuarias y los usuarios</h4>
+      <ul>
+        <li>Siempre que ingreses al Centro de Investigación Bibliográfica deberás usar
+tu credencial de la Universidad</li>
+        <li>En el interior, guardar silencio, no introducir alimentos, ni bebidas</li>
+        <li>Responsabilizarte del material de la biblioteca que te sea proporcionado
+bajo cualquier forma de préstamo</li>
+        <li>Respetar las fechas de devolución de los libros, cerciorándote que al
+entregarlos, hayan sido descargados de tu registro</li>
+        <li>Contribuir a mantener en buen estado el inmueble, mobiliario, equipo de
+cómputo y acervo bibliográfico</li>
+        <li>Utilizar las mesas y sillas de la sala de consulta, preferentemente para la
+realización de trabajos, tareas y lectura de libros</li>
+        <li>En caso de perder, mutilar o dañar un libro, deberás notificarlo y entregar
+un ejemplar nuevo del mismo título y la misma edición</li>
+      </ul>
     </div>
 
     <!-- Separador -->
@@ -50,16 +65,24 @@
         <li data-target="#carousel-indicador" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-indicador" data-slide-to="1"></li>
         <li data-target="#carousel-indicador" data-slide-to="2"></li>
+        <li data-target="#carousel-indicador" data-slide-to="3"></li>
+        <li data-target="#carousel-indicador" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="../lib18/images/images_lightbox/img1.jpg" alt="primerSlide">
+          <img class="d-block w-100" src="./images/images_lightbox/img1.jpg" alt="primerSlide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../lib18/images/images_lightbox/img2.jpg" alt="segundoSlide">
+          <img class="d-block w-100" src="./images/images_lightbox/img2.jpg" alt="segundoSlide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../lib18/images/images_lightbox/img3.jpg" alt="terceroSlide">
+          <img class="d-block w-100" src="./images/images_lightbox/img3.jpg" alt="terceroSlide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/images_lightbox/img4.jpg" alt="cuartoSlide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/images_lightbox/img5.jpg" alt="quintoSlide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carousel-indicador" role="button" data-slide="prev">
@@ -72,54 +95,27 @@
       </a>
     </div>
 
-    <hr/>
+    <hr/ id="id_servicios">
     <!-- Fin separador -->
 
-    <!-- Titulo -->
-    <h2 class="h3 text-center" id="id_servicios">Servicios</h2>
-    <!-- Informacion servicios de biblioteca -->
-    <!-- tab-de-'comprimidos' -->
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-      <li class="nav-item">
-        <a class="nav-link active" id="pills-prestamo-tab" data-toggle="pill" href="#pills-prestamo" role="tab" aria-controls="pills-prestamo" aria-selected="true">PRÉSTAMO EXTERNO</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-reserva-tab" data-toggle="pill" href="#pills-reserva" role="tab" aria-controls="pills-reserva" aria-selected="false">PRÉSTAMO DE MATERIALES DE RESERVA</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-linea-tab" data-toggle="pill" href="#pills-linea" role="tab" aria-controls="pills-linea" aria-selected="false">CONSULTA EN LÍNEA</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-cubiculos-tab" data-toggle="pill" href="#pills-cubiculos" role="tab" aria-controls="pills-cubiculos" aria-selected="true">CUBÍCULOS DE ESTUDIO INDIVIDUAL</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-catalogo-tab" data-toggle="pill" href="#pills-catalogo" role="tab" aria-controls="pills-catalogo" aria-selected="false">CATÁLOGO EN LÍNEA</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-coleccion-tab" data-toggle="pill" href="#pills-coleccion" role="tab" aria-controls="pills-coleccion" aria-selected="false">COLECCIONES ESPECIALES</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-fotocopiado-tab" data-toggle="pill" href="#pills-fotocopiado" role="tab" aria-controls="pills-fotocopiado" aria-selected="false">SERVICIO DE FOTOCOPIADO</a>
-      </li>
+    <p class="text-justify">El Centro de Investigación Bibliográfica cuenta con diversos servicios en apoyo
+a la formación académica de la Comunidad Universitaria.</p>
+    <ul>
+      <li>Acceso a salas de consulta del acervo bibliográfico</li>
+      <li>Acceso a sala de consulta informal</li>
+      <li>Préstamo a domicilio de material bibliográfico a la comunidad universitaria</li>
+      <li>Préstamo de equipos para consulta en línea</li>
+      <li>Red inalámbrica</li>
+      <li>Reservación de cubículos de estudio grupal</li>
+      <li>Servicio de fotocopiado</li>
+      <li>Sala de maestros</li>
+      <li>Acceso y capacitación de uso de Bases de datos</li>
+      <li>Acceso a Nodo de INEGI</li>
+      <li><a href="https://www.fonotecanacional.gob.mx/" target="_blank">Acceso a Fonoteca Nacional</a></li>
     </ul>
-    <!-- tab-de-contenidos -->
-    <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active text-justify" id="pills-prestamo" role="tabpanel" aria-labelledby="pills-prestamo-tab">Consiste en la obtención de materiales para su consulta fuera de la biblioteca, mismos que deberá registrar en el módulo de préstamos, previa alta como usuario. El usuario estudiante, puede obtener hasta tres títulos distintos por un máximo de dos días
-        hábiles, con opción a renovar por el mismo periodo. El usuario académico, puede obtener un título por asignatura impartida, durante un cuatrimestre o hasta cinco obras por un periodo de 10 días.</div>
-      <div class="tab-pane fade" id="pills-reserva" role="tabpanel" aria-labelledby="pills-reserva-tab">Consiste en la obtención de materiales de reserva para su consulta fuera de la biblioteca, entre el cerrar y abrir de la biblioteca.</div>
-
-      <div class="tab-pane fade" id="pills-linea" role="tabpanel" aria-labelledby="pills-linea-tab">Consiste en el acceso en línea a bases de datos como: IET Digital Library, ASME Digital Library, ASTM y Blackwell Synergy, desde las instalaciones de UPP o fuera de ésta. Acceso a recursos gratuitos selectos, que brindan información de calidad y fidedigna.</div>
-
-      <div class="tab-pane fade active" id="pills-cubiculos" role="tabpanel" aria-labelledby="pills-cubiculos-tab">Espacios para el estudio de textos de manera individual o desarrollo de trabajos en equipo de cómputo, ya que cuentan con servicio de conexión a energía eléctrica. Cubículos de estudio grupal: Espacios privados para desarrollo de trabajos en equipo
-        o asesorías.</div>
-      <div class="tab-pane fade" id="pills-catalogo" role="tabpanel" aria-labelledby="pills-catalogo-tab">Consiste en el acceso dentro o fuera de la biblioteca al catálogo bibliográfico electrónico, para la consulta, ubicación y disponibilidad de los materiales documentales.</div>
-
-      <div class="tab-pane fade" id="pills-coleccion" role="tabpanel" aria-labelledby="pills-coleccion-tab">Acceso a colecciones especiales como: INEGI, consulta, hemerografía, manuales de asignatura y manuales de prácticas de laboratorio.</div>
-
-      <div class="tab-pane fade" id="pills-fotocopiado" role="tabpanel" aria-labelledby="pills-fotocopiado-tab">Brinda el servicio de fotocopiado, impresión, engargolado y un amplio surtido de artículos de papelería, acorde a las principales necesidades de los programas de estudio y la demanda de la comunidad.</div>
+    <div class="alert alert-success text-center" role="alert">
+      Horario de atención: De 7:00 hrs a 20:00 hrs de lunes a viernes
     </div>
-
-    <!-- Fin de pill-info -->
 
 
     <!-- seccion -->
